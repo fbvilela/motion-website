@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  database: website_development
+  pool: 5
+  username: postgres
+  password:
