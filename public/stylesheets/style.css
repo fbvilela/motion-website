@@ -101,6 +101,7 @@ Content
 }
 
 #content .videos {
+	float: left;
   background: #FFF;
   padding: 10px;
   margin-bottom: 20px;
@@ -123,23 +124,32 @@ Content
 Video Item
 *********************/
 .video_item {
-	float: left;
-	width: 200px;
-	height: 100px;
-	border: 2px solid #CCC;
-	margin: 10px;
+  float: inherit;
+	width: auto;
+	height: auto;
+	border: none;
+	margin: 5px;
+	padding: 10px;
+}
+
+span.video_name {
+	
+	font-size: 2em;
+		
 }
 
 /*********************
 Video Playback
 *********************/
 .video_playback {
-	width: auto;
-	height: 400px;
-	margin: 10px;
+
 	border: 2px solid #CCC;
 }
 
+#div_player {
+	width: 600px;
+	height: 400px;
+}
 
 /*********************
 Sidebar
