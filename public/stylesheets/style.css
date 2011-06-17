@@ -9,14 +9,23 @@ Page Styles
 
 body {
   margin: 0;
-  background: #90ADB7 url('../images/background.png') repeat-x;
+  #background: #90ADB7 url('../images/background.png') repeat-x;
   font-family: verdana, sans-serif;
   font-size: 0.85em;
+  list-style: none;
 }
 
 #wrapper {
-  width: 960px;
+	width: 960px;
   margin: 0 auto;
+  border 4px;
+}
+
+#background_div {
+	float: left;
+	width: 960px;
+	height: 706px;
+	background: url('../images/background.jpg');
 }
 
 p {
@@ -29,16 +38,24 @@ a:hover {
 }
 
 
+#inner {
+	margin-left: 32px;
+}
 
 /*********************
 Navigation
 *********************/
+#logo_div {
+	width: 900px;
+	height: 147px;
+	
+}
 
 #nav {
   list-style: none;
   padding: 0;
-  float: right;
-  margin: 40px 0;
+  float: left;
+ 
 }
 
 #nav li {
@@ -46,6 +63,12 @@ Navigation
   margin-right: 10px;
   font-size: 1.4em;
   font-weight: bold;
+  
+}
+
+#nav li a {  
+	color: #FFFFFF;
+	font-family: Arial;
 }
 
 #nav li a:link, #nav li a:visited {
@@ -54,7 +77,14 @@ Navigation
 
 #nav li a:hover {
 	font-size: 1.1em;
+	background-color: #008000;
 }
+
+div.menu_item {
+	padding: 22px 20px;
+}
+
+
 
 
 

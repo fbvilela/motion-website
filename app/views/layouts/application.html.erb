@@ -10,21 +10,46 @@
 <body>
 	 
 	<div id="wrapper">
-		<div id="top_div" class="clearfix">  
-      <div id="header">
-        <h1>Eleveno</h1>
-        <h2>Your Video Resource</h2>
-      </div>
-      <ul id="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Samples</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">What we've done</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      </div>
-		<%= yield %>
-  </div>
+		<div id="background_div">
+		 <div id="inner">	
+			
+			<div id="logo_div">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+        <param name="movie" value="images/logo.swf" />
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="images/logo.swf" width="900" height="147">
+        <!--<![endif]-->
+          <p>Alternative content</p>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+    </div>
+    <div id="menu">
+    	<ul id="nav">
+    		<li>
+    			<a href="#"><div class="menu_item">About Us</div></a>
+    		</li>
+    		<li>
+    			<a href="#"><div class="menu_item">About Us</div></a>
+    		</li>
+    		<li>
+    			<a href="#"><div class="menu_item">Videos</div></a>
+    		</li>
+    		<li>
+    			<a href="#"><div class="menu_item">Latest Work</div></a>
+    		</li>
+    		<li>
+    			<a href="#"><div class="menu_item">FAQ</div></a>
+    		</li>
+    		<li>
+    			<a href="#"><div class="menu_item">Contact Us</div></a>
+    		</li>
+    	</ul>	
+    </div>
+    </div>
+	</div>
+ </div>
 
 </body>
 </html>

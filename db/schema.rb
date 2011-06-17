@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110613100704) do
+ActiveRecord::Schema.define(:version => 20110616125901) do
 
   create_table "videos", :force => true do |t|
     t.string   "name"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url"
   end
 
 end

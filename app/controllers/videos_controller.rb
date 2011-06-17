@@ -91,5 +91,6 @@ class VideosController < ApplicationController
   
   def load_video
     @video = Video.find(params[:id])
+    
   end
 end
