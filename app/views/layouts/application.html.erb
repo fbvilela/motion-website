@@ -11,8 +11,7 @@
 	 
 	<div id="wrapper">
 		<div id="background_div">
-		 <div id="inner">	
-			
+		 <div id="inner">				
 			<div id="logo_div">
       <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
         <param name="movie" value="images/logo.swf" />
@@ -25,28 +24,26 @@
         <!--<![endif]-->
       </object>
     </div>
-    <div id="menu">
+    <div id="menu" class="clearfix">
     	<ul id="nav">
     		<li>
-    			<a href="#"><div class="menu_item">About Us</div></a>
+    			<a href="about_us"><div class="menu_item">About us</div></a>
     		</li>
     		<li>
-    			<a href="#"><div class="menu_item">About Us</div></a>
+    			<a href="video_list"><div class="menu_item">Videos</div></a>
     		</li>
     		<li>
-    			<a href="#"><div class="menu_item">Videos</div></a>
+    			<a href="latest_work"><div class="menu_item">Latest work</div></a>
     		</li>
     		<li>
-    			<a href="#"><div class="menu_item">Latest Work</div></a>
+    			<a href="faq"><div class="menu_item">FAQ</div></a>
     		</li>
     		<li>
-    			<a href="#"><div class="menu_item">FAQ</div></a>
-    		</li>
-    		<li>
-    			<a href="#"><div class="menu_item">Contact Us</div></a>
+    			<a href="contact_us"><div class="menu_item">Contact us</div></a>
     		</li>
     	</ul>	
     </div>
+    <%= yield %>
     </div>
 	</div>
  </div>

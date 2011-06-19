@@ -15,6 +15,12 @@ body {
   list-style: none;
 }
 
+.video_name {
+	font-family: Futura;
+	font-size: 1em;
+	float: right;
+}
+
 #wrapper {
 	width: 960px;
   margin: 0 auto;
@@ -33,13 +39,10 @@ p {
   color: #333;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 
 #inner {
 	margin-left: 32px;
+	margin-right: 32px;
 }
 
 /*********************
@@ -55,8 +58,11 @@ Navigation
   list-style: none;
   padding: 0;
   float: left;
+  margin-bottom: 11px;
+  margin-top: 0px;
  
 }
+
 
 #nav li {
   float: left;
@@ -76,12 +82,21 @@ Navigation
 }
 
 #nav li a:hover {
-	font-size: 1.1em;
-	background-color: #008000;
+	color: #C0C0C0;
 }
 
+
+div#menu {
+	
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	
+}
 div.menu_item {
-	padding: 22px 20px;
+	padding: 35px 20px 2px 20px;
+	font-size: 0.8em;
+	 font-family: Futura;
 }
 
 
@@ -154,19 +169,12 @@ Content
 Video Item
 *********************/
 .video_item {
-  float: inherit;
-	width: auto;
-	height: auto;
-	border: none;
-	margin: 5px;
-	padding: 10px;
+  float: left;
+  margin-left: 5px;
+    margin-bottom: 40px;
+    margin-left: 27px;
 }
 
-span.video_name {
-	
-	font-size: 2em;
-		
-}
 
 /*********************
 Video Playback
@@ -209,9 +217,40 @@ Sidebar
 }
 
 
+/**
+ content divs
+
+**/
+.content_left {
+	float: left;
+	margin: 0px;
+	padding: 0px	;
+}
+
+.video_list_content_left {
+	float: left;
+	margin: 0px;
+	padding: 10px 0px	;
+}
 
 
+#menu {
+	padding: 0px;
+}
 
+.content_right {
+	float: right;
+	height: 400px;
+	padding-right: 30px;
+	border: #008000;
+}
+.video_list_content_right {
+	float: right;
+	background: url("../images/right_container.jpg") no-repeat;
+	height: 450px;
+	width: 514px;
+	padding: 30px 20px 0px 20px;
+}
 
 /**
  clearfix
